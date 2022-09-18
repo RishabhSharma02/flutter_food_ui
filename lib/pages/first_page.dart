@@ -65,6 +65,10 @@ class _HomePageState extends State<HomePage> {
                     'Order\n     now.',
                     speed: const Duration(milliseconds: 50),
                   ),
+                  TypewriterAnimatedText(
+                    'Built by\n bobcat.',
+                    speed: const Duration(milliseconds: 50),
+                  ),
                 ],
                 totalRepeatCount: 1000,
                 pause: const Duration(milliseconds: 2000),
