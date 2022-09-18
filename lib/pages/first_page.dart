@@ -140,7 +140,7 @@ class _HomePageState extends State<HomePage> {
                         padding: const EdgeInsets.only(right: 100),
                         child: Text(
                           "Coffee",
-                          style: GoogleFonts.notoSans(fontSize: 20),
+                          style: GoogleFonts.notoSans(fontSize: 18),
                         ),
                       ),
                       SizedBox(height: 20),
@@ -149,7 +149,7 @@ class _HomePageState extends State<HomePage> {
                         child: Text(
                           "₹50",
                           style: GoogleFonts.notoSans(
-                              fontSize: 18, color: Colors.orange),
+                              fontSize: 20, color: Colors.orange),
                         ),
                       )
                     ],
