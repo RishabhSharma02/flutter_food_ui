@@ -17,6 +17,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.transparent,
+        // ignore: prefer_const_constructors
         leading: Padding(
           padding: const EdgeInsets.only(left: 25),
           child: Icon(Icons.menu),
