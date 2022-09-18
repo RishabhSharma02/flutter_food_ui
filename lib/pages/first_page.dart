@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
             width: 250.0,
             height: 140,
             child: DefaultTextStyle(
-              style: GoogleFonts.bebasNeue(fontSize: 56),
+              style: GoogleFonts.bebasNeue(fontSize: 56, color: Colors.orange),
               child: AnimatedTextKit(
                 animatedTexts: [
                   TypewriterAnimatedText(
@@ -50,6 +50,10 @@ class _HomePageState extends State<HomePage> {
                   ),
                   TypewriterAnimatedText(
                     'Explore\n your taste.',
+                    speed: const Duration(milliseconds: 50),
+                  ),
+                  TypewriterAnimatedText(
+                    'good food\n awaits you.',
                     speed: const Duration(milliseconds: 50),
                   ),
                   TypewriterAnimatedText(
@@ -100,10 +104,10 @@ class _HomePageState extends State<HomePage> {
                       ),
                       SizedBox(height: 10),
                       Padding(
-                        padding: const EdgeInsets.only(right: 10),
+                        padding: const EdgeInsets.only(right: 0),
                         child: Text(
-                          "Chola bhatura",
-                          style: GoogleFonts.notoSans(fontSize: 20),
+                          "Chole bhature",
+                          style: GoogleFonts.notoSans(fontSize: 22),
                         ),
                       ),
                       SizedBox(height: 20),
@@ -112,9 +116,17 @@ class _HomePageState extends State<HomePage> {
                         child: Text(
                           "₹80",
                           style: GoogleFonts.notoSans(
-                              fontSize: 18, color: Colors.orange),
+                              fontSize: 20, color: Colors.orange),
                         ),
-                      )
+                      ),
+                      SizedBox(height: 10),
+                      Padding(
+                          padding: const EdgeInsets.only(left: 0),
+                          child: Text(
+                            "TAP TO GENERATE TOKEN",
+                            style: GoogleFonts.notoSans(
+                                fontSize: 14, color: Colors.orange),
+                          ))
                     ],
                   ),
                 ),
@@ -137,10 +149,10 @@ class _HomePageState extends State<HomePage> {
                       ),
                       SizedBox(height: 10),
                       Padding(
-                        padding: const EdgeInsets.only(right: 100),
+                        padding: const EdgeInsets.only(right: 0),
                         child: Text(
-                          "Coffee",
-                          style: GoogleFonts.notoSans(fontSize: 18),
+                          "Cappacino",
+                          style: GoogleFonts.notoSans(fontSize: 22),
                         ),
                       ),
                       SizedBox(height: 20),
@@ -151,7 +163,15 @@ class _HomePageState extends State<HomePage> {
                           style: GoogleFonts.notoSans(
                               fontSize: 20, color: Colors.orange),
                         ),
-                      )
+                      ),
+                      SizedBox(height: 10),
+                      Padding(
+                          padding: const EdgeInsets.only(left: 0),
+                          child: Text(
+                            "TAP TO GENERATE TOKEN",
+                            style: GoogleFonts.notoSans(
+                                fontSize: 14, color: Colors.orange),
+                          ))
                     ],
                   ),
                 ),
@@ -174,10 +194,10 @@ class _HomePageState extends State<HomePage> {
                       ),
                       SizedBox(height: 10),
                       Padding(
-                        padding: const EdgeInsets.only(right: 100),
+                        padding: const EdgeInsets.only(right: 0),
                         child: Text(
-                          "Momos",
-                          style: GoogleFonts.notoSans(fontSize: 20),
+                          "Hot Momos",
+                          style: GoogleFonts.notoSans(fontSize: 22),
                         ),
                       ),
                       SizedBox(height: 20),
@@ -186,9 +206,17 @@ class _HomePageState extends State<HomePage> {
                         child: Text(
                           "₹40",
                           style: GoogleFonts.notoSans(
-                              fontSize: 18, color: Colors.orange),
+                              fontSize: 20, color: Colors.orange),
                         ),
-                      )
+                      ),
+                      SizedBox(height: 10),
+                      Padding(
+                          padding: const EdgeInsets.only(left: 0),
+                          child: Text(
+                            "TAP TO GENERATE TOKEN",
+                            style: GoogleFonts.notoSans(
+                                fontSize: 14, color: Colors.orange),
+                          ))
                     ],
                   ),
                 ),
@@ -211,10 +239,10 @@ class _HomePageState extends State<HomePage> {
                       ),
                       SizedBox(height: 10),
                       Padding(
-                        padding: const EdgeInsets.only(right: 100),
+                        padding: const EdgeInsets.only(right: 0),
                         child: Text(
-                          "Softie",
-                          style: GoogleFonts.notoSans(fontSize: 20),
+                          "Softy",
+                          style: GoogleFonts.notoSans(fontSize: 22),
                         ),
                       ),
                       SizedBox(height: 20),
@@ -223,9 +251,17 @@ class _HomePageState extends State<HomePage> {
                         child: Text(
                           "₹30",
                           style: GoogleFonts.notoSans(
-                              fontSize: 18, color: Colors.orange),
+                              fontSize: 20, color: Colors.orange),
                         ),
-                      )
+                      ),
+                      SizedBox(height: 10),
+                      Padding(
+                          padding: const EdgeInsets.only(left: 0),
+                          child: Text(
+                            "TAP TO GENERATE TOKEN",
+                            style: GoogleFonts.notoSans(
+                                fontSize: 14, color: Colors.orange),
+                          ))
                     ],
                   ),
                 ),
